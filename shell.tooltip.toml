@@ -1,0 +1,13 @@
+# yokocho override for [tooltip].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are frozen copies of
+# colors.toml -- re-sync on any palette change. shell.lock.toml carries `red`
+# twice, as text-error and border-error.
+
+# Hover tooltips across the bar, panels, and buttons. background-alpha of
+# 0.97 mirrors the legacy hard-coded tooltip opacity.
+background       = "#1a1420"
+background-alpha = 0.97
+text             = "#c3bbb4"
+border           = "#c3bbb4"
+border-alpha     = 0.20

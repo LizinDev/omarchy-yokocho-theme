@@ -1,0 +1,23 @@
+# yokocho override for [lock].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are frozen copies of
+# colors.toml -- re-sync on any palette change. shell.lock.toml carries `red`
+# twice, as text-error and border-error.
+
+# Lock screen password input. background/background-alpha control the
+# centered input field card; border/border-active/border-error cycle
+# through idle, typing/authenticating, and wrong-password states.
+# border-alpha applies to all three border states (they are mutually
+# exclusive in time).
+background       = "#1a1420"
+background-alpha = 0.8
+text             = "#c3bbb4"
+placeholder      = "#8a8282"
+text-error       = "#c26470"
+border           = "#5b5068"
+border-active    = "hyprland.active-border"
+border-error     = "#c26470"
+border-alpha     = 1.0
+# selection is the text-selection tint inside the input field.
+selection        = "#74aca6"
+selection-alpha  = 0.45

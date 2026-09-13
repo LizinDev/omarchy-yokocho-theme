@@ -1,0 +1,22 @@
+# yokocho override for [launcher].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are frozen copies of
+# colors.toml -- re-sync on any palette change. shell.lock.toml carries `red`
+# twice, as text-error and border-error.
+
+# Same six tokens as [menu], applied to the launcher overlay. Alpha
+# companions go from 0 (invisible) to 1 (opaque). scrim is the full-screen
+# dim layer behind the card; background is the card itself. Defaults
+# mirror [menu] with the card at 0.95 to preserve the legacy translucency.
+background                = "#1a1420"
+background-alpha          = 0.95
+text                      = "#c3bbb4"
+border                    = "#c3bbb4"
+border-alpha              = 0.25
+scrim                     = "#1a1420"
+scrim-alpha               = 0.5
+selected-background       = "#c3bbb4"
+selected-background-alpha = 0.08
+selected-text             = "#74aca6"
+selected-border           = "#74aca6"
+selected-border-alpha     = 0.50
