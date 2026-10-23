@@ -15,6 +15,9 @@ the wheel and so never get confused with one another.
 omarchy theme install https://github.com/LizinDev/omarchy-yokocho-theme.git
 ```
 
+Installing applies the theme right away. To switch back to it later, run
+`omarchy theme set yokocho`; to uninstall it, run `omarchy theme remove yokocho`.
+
 ## Palette
 
 | Role | Hex | |
@@ -97,3 +100,9 @@ omarchy theme set yokocho
 ```
 
 Iterate with `omarchy theme refresh`.
+
+## License
+
+The theme files are released under the [MIT License](LICENSE). The pixel art the palette
+was designed against is someone else's work. It is not in this repository and the
+license does not cover it.
