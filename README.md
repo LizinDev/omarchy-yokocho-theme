@@ -34,7 +34,7 @@ ANSI: `#c26470` red · `#7d9a77` green · `#c9a672` yellow · `#7385a8` blue ·
 Mean ANSI saturation is 0.34, matching the rest of the set. The source image runs at
 0.45, so the warm neon has been pulled down hard while keeping its hue.
 
-The border gradient runs teal → crimson. Because the accent is cool and `red` is warm,
+The border gradient runs teal → crimson (`accent` → `red`). Because the accent is cool and `red` is warm,
 they sit **61 dE apart** — a focused window border and a wrong-password border can never
 be mistaken for each other, which is not automatic: two earlier themes in this set had
 to be corrected for exactly that collision.
