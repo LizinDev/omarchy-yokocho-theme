@@ -43,7 +43,7 @@ to be corrected for exactly that collision.
 
 | File | |
 |---|---|
-| `colors.toml` | the palette — generates 17 app configs on its own |
+| `colors.toml` | the palette Omarchy uses to render its installed app templates |
 | `hyprland.lua` | teal→crimson border gradient + a cool shadow on the focused window |
 | `shell.{menu,launcher,tooltip,lock}.toml` | per-section shell overrides |
 | `icons.theme` | `Yaru-prussiangreen-dark` |
@@ -59,8 +59,10 @@ theme was designed against a piece of pixel art, but that is someone else's work
 not redistributed. Drop your own in:
 
 ```bash
-cp <your-wallpaper> ~/.config/omarchy/themes/yokocho/backgrounds/1-yokocho.png
+mkdir -p ~/.config/omarchy/backgrounds/yokocho
+cp ~/Pictures/wallpaper.png ~/.config/omarchy/backgrounds/yokocho/1-yokocho.png
 omarchy theme set yokocho
+omarchy theme bg set ~/.config/omarchy/backgrounds/yokocho/1-yokocho.png
 ```
 
 If yours is a JPEG of pixel art, check whether it is an integer upscale before doing
